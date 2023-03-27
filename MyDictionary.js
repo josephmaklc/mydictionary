@@ -35,7 +35,6 @@ class MyDictionary extends React.Component {
 
         if (response.status!==404) {
         this.setState({
-          audio: response[0].phonetics[0].audio[0],
           partOfSpeech: response[0].meanings[0].partOfSpeech, 
           definition: response[0].meanings[0].definitions[0].definition
         })
@@ -46,7 +45,6 @@ class MyDictionary extends React.Component {
         this.setState({
           definition: "Sorry, word not found",
           partOfSpeech: "",
-          audio: ""
         })
       })
 
