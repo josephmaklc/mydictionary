@@ -7,7 +7,6 @@ function MyDictionaryHook (props) {
   const [partOfSpeech, setPartOfSpeech] = useState("");
 
   useEffect(() => {
-      console.log("useFffect");
 	doFetch();
   }, []);  // <-- this [] is there so it is only called initially
 
