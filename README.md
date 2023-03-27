@@ -5,5 +5,6 @@ I made two versions, one with classic class that extends React Component, and on
 
 https://codesandbox.io/s/late-shadow-ujqi4c?file=/src/MyDictionary.js
 
-usage, pass an optionarl property named "word".
-<MyDictionary word="test"/>
+usage, pass an optional property named "word".
+
+&lt;MyDictionary word="test"/&gt;
