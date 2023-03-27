@@ -32,14 +32,10 @@ function MyDictionaryHook (props) {
         setDefinition(response[0].meanings[0].definitions[0].definition);
         }
       })
-     	.catch(err=> { 
-
+      .catch(err=> { 
         setDefinition("Sorry, word not found");
         setPartOfSpeech("");
-
-        })
-      
-
+      })
   }
 
     return (
